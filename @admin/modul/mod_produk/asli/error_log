@@ -1,0 +1,46 @@
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/23IMG_20140620_225742.jpg' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 21
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 22
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 32
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 49
+[21-Jun-2014 15:41:08 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:13) in /home/taswanit/public_html/@admt45/modul/mod_produk/aksi_produk.php on line 96
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/62IMG_20140620_225742.jpg' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 21
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 22
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 32
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 49
+[21-Jun-2014 15:46:47 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:13) in /home/taswanit/public_html/@admt45/modul/mod_produk/aksi_produk.php on line 142
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/56IMG_20140620_225742.jpg' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 21
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 22
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 32
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 49
+[24-Jun-2014 20:18:49 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:13) in /home/taswanit/public_html/@admt45/modul/mod_produk/aksi_produk.php on line 96
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/87IMG_20140620_225742.jpg' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 13
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 21
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 22
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 32
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 49
+[24-Jun-2014 20:29:54 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:13) in /home/taswanit/public_html/@admt45/modul/mod_produk/aksi_produk.php on line 96
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 13
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/79nilon tulang.jpg' is not a valid JPEG file in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 13
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 21
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 22
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 32
+[11-Jan-2015 21:59:15 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 49
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 13
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/produk/59nilon tulang.jpg' is not a valid JPEG file in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 13
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 21
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 22
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 32
+[11-Jan-2015 22:00:03 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 49
+[12-Jan-2015 03:24:57 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpAfCW3U' to '../../../joimg/produk/38cs kretek tanpa cemol.jpg' in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 9
+[12-Jan-2015 03:24:57 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 13
+[12-Jan-2015 03:24:57

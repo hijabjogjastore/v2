@@ -1,0 +1,33 @@
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/testimoni/313463_MG_8743(1).JPG' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 468
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 469
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  Division by zero in /home/taswanit/public_html/josys/fungsi_thumb.php on line 473
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/taswanit/public_html/josys/fungsi_thumb.php on line 476
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 477
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 481
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 494
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 495
+[09-Oct-2014 23:44:45 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:460) in /home/taswanit/public_html/@admt45/modul/mod_testimoni/aksi_testimoni.php on line 77
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/testimoni/728488_MG_8743(1).JPG' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 468
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 469
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  Division by zero in /home/taswanit/public_html/josys/fungsi_thumb.php on line 473
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/taswanit/public_html/josys/fungsi_thumb.php on line 476
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 477
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 481
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 494
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 495
+[09-Oct-2014 23:49:39 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:460) in /home/taswanit/public_html/@admt45/modul/mod_testimoni/aksi_testimoni.php on line 77
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/testimoni/341922_MG_8743(1).JPG' is not a valid JPEG file in /home/taswanit/public_html/josys/fungsi_thumb.php on line 460
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 468
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 469
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  Division by zero in /home/taswanit/public_html/josys/fungsi_thumb.php on line 473
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/taswanit/public_html/josys/fungsi_thumb.php on line 476
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 477
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 481
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 494
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/taswanit/public_html/josys/fungsi_thumb.php on line 495
+[09-Oct-2014 23:55:36 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/taswanit/public_html/josys/fungsi_thumb.php:460) in /home/taswanit/public_html/@admt45/modul/mod_testimoni/aksi_testimoni.php on line 77

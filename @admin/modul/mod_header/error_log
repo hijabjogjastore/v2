@@ -1,0 +1,23 @@
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  unlink(../../../joimg/slides/915443logo.png): No such file or directory in /home/nanakuhi/public_html/@dm01wen/modul/mod_header/aksi_header.php on line 59
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  unlink(../../../joimg/slides/s_915443logo.png): No such file or directory in /home/nanakuhi/public_html/@dm01wen/modul/mod_header/aksi_header.php on line 60
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 291
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/slides/736517logo.png' is not a valid JPEG file in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 291
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 292
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 293
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  Division by zero in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 298
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 301
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 302
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 305
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 308
+[06-Jan-2015 08:29:02 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 309
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  unlink(../../../joimg/slides/s_736517logo.png): No such file or directory in /home/nanakuhi/public_html/@dm01wen/modul/mod_header/aksi_header.php on line 60
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 291
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagecreatefromjpeg(): '../../../joimg/slides/853082NANAKUhijab.png' is not a valid JPEG file in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 291
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 292
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 293
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  Division by zero in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 298
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 301
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 302
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 305
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 308
+[06-Jan-2015 13:35:37 Asia/Jakarta] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/nanakuhi/public_html/josys/fungsi_thumb.php on line 309

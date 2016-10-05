@@ -1,0 +1,185 @@
+http://berita-bca.liputan6.com/read/2193737/kisah-sukses-feny-mustafa-bangun-brand-shafira-dan-zoya
+https://www.instagram.com/vanillahijab/?hl=en
+https://www.instagram.com/kerudungelita/
+desain template.
+
+
+
+1. produk --> home
+2. categori 
+3. produk_detail -> 
+4. cart -> SESSION
+5. login 
+6. checkuot ->
+7. checkout-address
+8. pilih_pembayaran ->  BCA, BRI, BNI
+9. tanks -> OK
+
+10. konfirmasi pembayaran --> OK
+11. cek-status-pesanan
+12. tampilkan status pesanan
+
+   //include("well_cont/product.php");  //OK
+   
+   // include("well_cont/product-detail.php"); //OK
+
+   //include("well_cont/cart.php"); //OK
+   // include("well_cont/cart-kosong.php");  //OK
+   
+   // include("well_cont/login.php"); //OK
+
+   //include("well_cont/checkout-address.php"); //OK
+   //include("well_cont/checkout-paymen.php");
+   //include("well_cont/checkout-tanks.php"); //OK
+
+   //include("well_cont/konfirmasi.php");  //OK
+   //include("well_cont/checkout-confirm.php"); //OK
+   //include("well_cont/form-lacak-pesanan.php"); // OK
+   //include("well_cont/hasil-lacak-pesanan.php"); //OK
+
+			www.gazalashop.com
+
+-> paging...               OKE
+-> htaccess ---> paging..  OKE
+-> subimages
+-> cart
+-> order
+-> konfirmasi bayar 
+-> cek status order..   done
+
+------------
+rancangan product
+
+1.  deskripsi
+2.  nama_produck
+3.  kode_produk
+4.  brand ------------------->  select box
+5.  diskon
+6.  status --> promo, baru, model terbaru
+7.  harga 
+8.  warna ------------------->
+9.  bahan
+10. lama_kirim
+11. jumlah
+
+---product--
+1.  product_id
+2.  product_code
+3.  product_name
+4.  product_desc
+5.  product_harga 
+6.  product_diskon
+7.  product_promo
+8.  product_color
+9.  product_bahan
+10. product_size
+12. product_lama_kirim
+13. product_jumlah
+14. brand_id
+15. category_id
+
+-- product_images --
+1. product_img_id
+2. product_imag_images
+2. product_id
+
+--category--
+1.  category_id
+2.  categori_name
+3.  categori_seo
+
+--brand --
+1. brand_id
+2. brand_name
+3. brand_seo
+
+
+
+detail-artikel-<?php echo $ka['id_artikel']; ?>
+
+RewriteRule ^artikel-perlengkapan-pramuka-pmr-sekolah-pecinta-alam$ media.php?module=artikel [L]
+RewriteRule ^detail-artikel-(.*)$ media.php?module=detail-artikel&id=$1 [L]
+
+
+RewriteRule ^produk-halaman-([0-9]+)$ media.php?module=allProduk&halaman=$1 [L]
+RewriteRule ^produk-([0-9]+)-(.*)\.html$ media.php?module=detailproduk&id=$1 [L]
+
+
+
+
+
+home, prodcut, kategory brand, 
+
+home 
+
+sold out
+product               ---> kusus product tampilan acak...
+promo, diskon, new  kusus barang diskon....
+sudah dipesan..
+
+
+menu --
+.................
+Home
+.................
+product terlaris
+promo        ========searcing diskon&search=product='isi product'  harga coret beli 2 dapat 3.
+diskon       ========searcing diskon&search=product='isi product'  kosus diskon
+sould out    ======== pruduct yang sudah terjual
+ready stock  ========
+all product 
+
+...................
+Category Brand 
+...................
+ELITA KERUDUNG
+RAINBOWOLSHOP
+GAZALASHOP
+...................
+Category Warna Hijab
+..................
+Warna Grey
+Warna Blue
+Warna Green
+Warna Pink
+Warna Cream
+Warna Black
+Warna White
+Warna Brown
+Warna Purple
+Warna Red
+Warna Orange
+Warna Yellow
+----------------------------
+Konfirmasi Pembayaran
+Status Pesanan
+-----------------------
+Pusat Bantuan
+-----------------------
+Cara Pemesanan
+Persyaratan & Ketentuan
+Kebijan Privasi
+-----------------------
+Tentang Kami
+Contact Kami
+
+
+
+
+hiijab jogja store merupakan e-commer yang berdiri di jogja yang dirancang oleh mahasiswa untuk menjual berbagai model hijab dengan koleksi-
+koleksi hijab terbaru yang diproduksi oleh produsen di area jogja untuk di jual ke suluruh Indonesai dengan memanfaatkan teknologi internet 
+dan media sosial. 
+
+
+…or create a new repository on the command line
+
+echo "# v2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hijabjogjastore/v2.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/hijabjogjastore/v2.git
+git push -u origin master

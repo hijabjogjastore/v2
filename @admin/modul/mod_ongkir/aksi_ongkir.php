@@ -1,0 +1,25 @@
+<?php
+session_start();
+include "../../../josys/koneksi.php";
+
+$module=$_GET['module'];
+$act=$_GET['act'];
+
+
+// Hapus Ongkos Kirim
+if ($module=='ongkir' AND $act=='hapus'){
+	mysql_query("DELETE FROM kota WHERE id_kota='$_GET[id]'");
+	header('Location:../../media.php?module='.$module);
+}
+
+// Input Ongkos Kirim
+elseif ($module=='ongkir' AND $act=='input'){
+	mysql_query("INSERT INTO kota(nama_kota,ongkos_kirim) VALUES('$_POST[nama_kota]','$_POST[ongkos_kirim]')");
+	header('Location:../../media.php?module='.$module);
+}
+
+// Update Ongkos Kirim
+elseif ($module=='ongkir' AND $act=='update'){
+	mysql_query("UPDATE kota SET nama_kota = '$_POST[nama_kota]', ongkos_kirim='$_POST[ongkos_kirim]' WHERE id_kota = '$_POST[id]'");
+	header('Location:../../media.php?module='.$module);
+}

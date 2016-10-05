@@ -1,0 +1,192 @@
+    /* Note: Design for a width of 980px */
+	@media only screen and (max-width:1100px) {
+		.container {
+		  position: relative;
+		  width: 100%;
+		  padding: 0px 0px;
+		}
+
+		.banner-wrapper .banner-block .banner-slider, .banner-wrapper .banner-block .flexslider {
+			width: 99%;
+		}
+
+		.right-sidebar {
+		  width: 20%;
+		}
+		.footer-wrapper {
+		  width: 100%;
+		}
+
+		.col-main {
+		  width: 73%;
+		}
+		.content-wrapper .content-container .col-main .new-product-block .product-grid li {
+		  width: 250px;
+		}
+		.quick-view-wrapper {
+		  display: block;
+		}
+	}
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .right-sidebar {
+			width: 20%;
+		}
+    }
+    @media only screen and (max-width: 800px) {
+		.right-sidebar {
+		  width: 417px;
+		}
+	}
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+	@media only screen and (max-width:980px) {
+		.right-sidebar {
+		  width: 417px;
+		}
+	}
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .right-sidebar {
+		  width: 30%;
+		}
+
+		.container .col-main {
+		  width: 60%;
+		}
+
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+
+    }
+    @media only screen and (max-width: 800px) {
+		.right-sidebar {
+		  width: 30%;
+		}
+		.content-wrapper .content-container .col-main .new-product-block .product-grid li {
+		  width: 210px;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+	}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+		.right-sidebar {
+			width: 417px;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.right-sidebar {
+			width: 95%;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+		.quick-view-wrapper {
+		  display: block;
+		}
+    }
+
+	@media only screen and (min-width: 300px) and (max-width: 360px) {
+		.right-sidebar {
+			width: 417px;
+		}
+	}
+
+	@media only screen and (min-width: 300px) and (max-width: 640px) {
+		.right-sidebar {
+			width: 95%;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+	}
+
+
+
+
+
+
+
+
+
+	/*-------------------------------------------------*/
+	@media only screen and (max-width: 767px) and (min-width: 480px){
+			.container .col-main {
+			width: 95%;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+	}
+
+	@media only screen and (max-width: 767px) and (min-width: 480px){
+		.content-wrapper .content-container .new-product-block ul.product-grid li, .content-wrapper .content-container .col-main .new-product-block ul.product-grid li {
+			margin: 10px 0px !important;
+			width: 49%;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+	}
+
+	@media only screen and (max-width: 767px){
+		.container .col-main {
+		  width: 95%;
+		}
+
+		.header-wrapper header .head-right {
+			  display: none;
+		}
+
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+	}
+
+	@media only screen and (max-width: 959px) and (min-width: 768px){
+		.header-wrapper header .head-right {
+			display: none;
+		}
+		.header-wrapper header .logo {
+		  width: 70%;
+		}
+	}
+
+	@media only screen and (max-width: 767px){
+		.content-wrapper .content-container .new-product-block .product-grid li, .content-wrapper .content-container .col-main .new-product-block ul.product-grid li {
+		  margin: 10px 0px !important;
+		  width: 98%;
+		}
+		.header-wrapper {
+		  background: url(../images/bg-header.png) repeat center;
+		}
+		.header-wrapper header .logo {
+		  width: 70%;
+		}
+
+		.product-shop {
+			width: 37%;
+		}
+	}
