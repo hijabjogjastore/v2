@@ -185,4 +185,4 @@ git remote add origin https://github.com/hijabjogjastore/v2.git
 git push -u origin master
 
 
-OKEKEKEK
+penambahan catatan penting
