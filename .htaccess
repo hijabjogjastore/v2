@@ -1,0 +1,61 @@
+RewriteEngine on
+
+RewriteRule ^hijab-terbaru.html$ media.php?mod=home [L]
+
+#page-halaman statis
+#RewriteRule ^page-([0-9]+)-(.*)\.html$ media.php?mod=page&id=$1 [L]
+
+RewriteRule ^product.html$ media.php?mod=product [L]
+
+RewriteRule ^details-product-(.*)\.html$ media.php?mod=product-detail&id=$1 [L]
+
+RewriteRule ^product-page-(.*)\.html$ media.php?mod=product&halaman=$1 [L]
+
+RewriteRule ^konfirmasi.html$ media.php?mod=konfirmasi [L]
+
+RewriteRule ^status_pemesanan.html$ media.php?mod=lacak-pesanan [L]
+RewriteRule ^pesanan.html$ media.php?mod=show-lacakpesanan [L]
+
+#page
+RewriteRule ^cara-pemesanan.html$ media.php?mod=cara-pemesanan [L]
+
+
+#page
+RewriteRule ^profil-nanaku-hijab-store$ page-2-tentangkami.html [QSA,L]
+RewriteRule ^cara-belanja-nanaku-hijab-store$ page-10-carabelanja.html [QSA,L]
+RewriteRule ^reseller-nanaku-hijab-store$ page-11-reseller.html [QSA,L]
+
+#produk
+RewriteRule ^semua-produk-nanaku-hijab-store$ media.php?mod=allProduk [QSA,L]
+RewriteRule ^produk-(.*)\.html$ media.php?mod=detailProduk&id=$1 [L]
+RewriteRule ^halproduk-(.*)$ media.php?mod=allProduk&halproduk=$1 [L]
+
+#kategori
+RewriteRule ^(.*)-kategori-(.*)$ media.php?mod=detailKategori&id=$1 [L]
+RewriteRule ^([0-9]+)-kategori(.*)-(.*)\.html$ media.php?mod=detailKategori&id=$1 [L]
+RewriteRule ^halprodukKategori-(.*)$ media.php?mod=detailKategori&halprodukKategori=$1 [L]
+
+#subkategori
+RewriteRule ^(.*)-subkategori-(.*)$ media.php?mod=detailsubKategori&id=$1 [L]
+RewriteRule ^([0-9]+)-subkategori(.*)-(.*)\.html$ media.php?mod=detailsubKategori&id=$1 [L]
+RewriteRule ^halproduksubKategori-(.*)$ media.php?mod=detailsubKategori&halproduksubKategori=$1 [L]
+
+#promo
+RewriteRule ^promo-nanaku-hijab-store$ media.php?mod=promo [QSA,L]
+RewriteRule ^produk-(.*)\.html$ media.php?mod=detailProduk&id=$1 [L]
+RewriteRule ^halproduk-(.*)$ media.php?mod=promo&halproduk=$1 [L]
+
+#news
+
+#keranjang-belanja
+RewriteRule ^cart$ media.php?mod=keranjangbelanja [L]
+RewriteRule ^cart-step(.*)$ media.php?mod=keranjangbelanja&step=$1 [L]
+
+#form
+RewriteRule ^prosesCari$ media.php?mod=form_cari [L]
+RewriteRule ^prosesCart$ media.php?mod=form_transaksi [L]
+
+#cart
+RewriteRule ^addcart&idp=([0-9]+)$ cart.php?mod=basket&act=add&idp=$1 [L]
+RewriteRule ^addcart&idp=([0-9]+)&ido=([0-9]+)$ cart.php?mod=basket&act=add&idp=$1&ido=$2 [L]
+
