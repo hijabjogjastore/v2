@@ -1,24 +1,27 @@
 <div id="sb-site">
     <div class="overlay-background"></div>
     <div class="container marketing">
-
-        <div class="row">
-            <div class="col-xs-12 col-md-6 col-md-offset-3">
-                <p class="lead"><strong>Tampil cantik dan menarik tidak harus mahal dengan Koleksi PinkEmma</strong></p>
-                <h2 class="product-name">Spring Floral Maxi</h2>
-                <p class="text-muted">Kode: PI10000090002</p>
-                <p class="brand"><a href="#">PinkEmma Project</a></p>
-            </div>
-        </div>
-
         <?php
-
         $product_detail="select * from product where product_id='".$_GET['id']."'";
         $result_product_detail=mysql_query($product_detail);
         $data_product_detail=mysql_fetch_array($result_product_detail);
         $linkBeli   = 'addcart&idp='.$data_product_detail['product_id'];
-
         ?>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-3">
+                <p class="lead"><strong><?php echo $data_product_detail['product_desc']; ?></strong></p>
+                <h2 class="product-name"><?php echo $data_product_detail['product_name']; ?></h2>
+                <p class="text-muted">Kode: <?php echo $data_product_detail['product_code']; ?></p>
+                <?php
+                $sql_brand="select * from brand where brand_id='".$data_product_detail['brand_id']."'";
+                $result_brand=mysql_query($sql_brand);
+                $data_brand=mysql_fetch_array($result_brand);
+                ?>
+                <p class="brand"><a href="#"><?php echo $data_brand['brand_name']; ?></a></p>
+            </div>
+        </div>
+
+      
      <!--   <form method="POST" action="cart.html"> -->
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
