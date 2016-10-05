@@ -1,3 +1,3 @@
 <?php
 header("location: hijab-terbaru.html");
-//echo "asu";
+//echo "kudu iso pokok e";
