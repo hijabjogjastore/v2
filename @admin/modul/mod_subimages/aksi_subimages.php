@@ -88,11 +88,10 @@ if ($module=='subimages' AND $act=='hapus'){
 				$acak           = rand(000000,999999);
 				$nama_file_unik = $acak.$nama_file; 
   
-				UploadSubimages($nama_file_unik,$i);
+				//UploadSubimages($nama_file_unik,$i);
 				//watermark_image("../../../joimg/subimages/$nama_file_unik", "../../../joimg/subimages/$nama_file_unik");
 		  
-				mysql_query(
-					$sql="INSERT INTO subimages(judul,product_id,
+				mysql_query("INSERT INTO subimages(judul,product_id,
 											gambar,tanggal) 
 									VALUES('$_POST[judul]','$_POST[product_id]',
 											'$nama_file_unik',now() )");
