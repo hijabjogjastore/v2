@@ -133,9 +133,15 @@
             ?>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-list-sku">
                     <div class="container-badge">
+                    <?php 
+                    if($data_product['product_discount'] != 0 ){
+                    ?>
                         <div class="badge-tag">
-                            46%
+                            <?php echo $data_product['product_discount']; ?>%
                         </div>
+                    <?php
+                    }   
+                    ?>
                         <div class="badge-tag orange">
                             Baru!
                         </div>
