@@ -13,5 +13,5 @@ mysql_select_db(DATABASE_NAME) or die ("Database <strong>".DATABASE_NAME."</stro
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 */
 mysql_connect('localhost','root','');
-mysql_select_db("hijabjogjastore_v2");
+mysql_select_db("v2");
 ?>
