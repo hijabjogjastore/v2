@@ -68,16 +68,16 @@
                         <ul class="dropdown-menu dropdown-menu-custom" role="menu">
 
                             <li><a href="cara-pemesanan.html">Cara Pemesanan</a></li>
-                            <li><a href="#">Persyaratan & Ketentuan</a></li>
-                            <li><a href="#">Kebijakan Privasi</a></li>
+                            <li><a href="persyaratan-dan-ketentuan.html">Persyaratan & Ketentuan</a></li>
+                            <li><a href="kebijakan-privasi.html">Kebijakan Privasi</a></li>
 
                         </ul>
 
                     </li>
                     <li role="separator" class="divider"></li>
-                    <li class=""><a href="index.php"><span class="glyphicon glyphicon-tags"></span> TENTANG KAMI </a></li>
+                    <li class=""><a href="tentang-kami.html"><span class="glyphicon glyphicon-tags"></span> TENTANG KAMI </a></li>
                     <li role="separator" class="divider"></li>
-                    <li class=""><a href="index.php"><span class="glyphicon glyphicon-phone-alt"></span> CONTACT KAMI </a></li>
+                    <li class=""><a href="contact-kami.html"><span class="glyphicon glyphicon-phone-alt"></span> CONTACT KAMI </a></li>
                     <li role="separator" class="divider"></li>
 
                 </ul>

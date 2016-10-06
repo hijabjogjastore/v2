@@ -186,3 +186,20 @@ git push -u origin master
 
 
 penambahan catatan penting
+
+
+
+statik page
+-Pusat bantuan :
+   1. cara pemesanan
+   2. Persyaratan dan ketentuan
+   3. kebijakan privasi
+-Tentang Kami
+-Contact
+
+
+
+
+
+
+

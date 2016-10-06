@@ -82,11 +82,14 @@
                         <label>Warna Lain:</label>
                         <ul class="list-unstyled list-inline">
                             <?php
-                            for($i=0;$i<3;$i++){
+                            $sql_subimages="select * from subimages where product_id='".$data_product_detail['product_id']."'";
+                            $result_subimages=mysql_query($sql_subimages);
+                            while($data_subimages=mysql_fetch_array($result_subimages)){
+                            //for($i=0;$i<3;$i++){
                             ?>
                             <li>
                                 <a href="#">
-                                    <img class="thumbnail" src="assets/images/hijaber.jpg" width="84" border="0">
+                                    <img class="thumbnail" src="assets/images/<?php echo $data_subimages['gambar']; ?>" width="84" border="0">
                                 </a>
                             </li>
                             <?php
@@ -102,12 +105,20 @@
         <hr class="featurette-divider" />
 
         <div class="row featurette">
+           <?php
+            $sql_subimages="select * from subimages where product_id='".$data_product_detail['product_id']."'";
+            $result_subimages=mysql_query($sql_subimages);
+            while($data_subimages=mysql_fetch_array($result_subimages)){
+           ?>
             <div class="col-md-6">
                 <div class="thumbnail" style="border: none;">
-                    <img class="featurette-image img-responsive" src="assets/images/hijaber3.jpg" alt="Spring Floral Maxi">
+                    <img class="featurette-image img-responsive" src="assets/images/subimages/<?php echo $data_subimages['gambar']; ?>" alt="Spring Floral Maxi">
                 </div>
             </div>
-            <div class="col-md-6">
+            <?php
+            }
+            ?>
+      <!--       <div class="col-md-6">
                 <div class="thumbnail" style="border: none;">
                     <img class="featurette-image img-responsive" src="assets/images/hijaber1.jpg" alt="Spring Floral Maxi">
                 </div>
@@ -121,7 +132,7 @@
                 <div class="thumbnail" style="border: none;">
                     <img class="featurette-image img-responsive" src="assets/images/hijaber1.jpg" alt="Spring Floral Maxi">
                 </div>
-            </div>
+            </div> -->
         </div>
 
 

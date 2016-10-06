@@ -32,19 +32,20 @@
         <div class="row-fluid">
             <div class="col-md-12 no-pd" style="padding-left: 0px; padding-right: 0px;">
                 <div class="thumbnail" style="border: none; padding-left: 0px; padding-right: 0px;">
-                    <a href="http://www.pinkemma.com/flashsale/detail/9" onclick="ga('send', 'event' ,'Flash_Sale', 'Semua serba 70 Ribu, Last Stock!','click',1);"><img src="http://placehold.it/600x400&text=not+available" class="img-responsive" width="100%"></a>
+                    <img src="assets/images/cara-pemesanan.jpg" class="img-responsive" width="100%">
                 </div>
             </div>
             <div class="col-md-12 no-pd">
                 <h3 class="featurette-heading">
-            <a href="http://www.pinkemma.com/flashsale/detail/9" onclick="ga('send', 'event' ,'Flash_Sale', 'Semua serba 70 Ribu, Last Stock!','click',1);">Semua serba 70 Ribu, Last Stock!</a>
+<!--             <a href="#" onclick="ga('send', 'event' ,'Flash_Sale', 'Semua serba 70 Ribu, Last Stock!','click',1);"> -->
+Semua serba Mudah, Simple & Ngangenin :)
         </h3>
-                <h4><small><b>19</b> produk</small></h4>
+                <!-- <h4><small><b>19</b> produk</small></h4> -->
                 <!--
         <p>
             Semua blouse lengan panjang + maxi skirt SALEserba 70 ribu!        </p>
 -->
-                <div class="time row" data-endtime="1473958799000">
+                <!-- <div class="time row" data-endtime="1473958799000">
                     <div class="days col-xs-3 col-timer">
                         <div class="well well-sm text-center">
                             <h2>1</h2>
@@ -69,10 +70,10 @@
                             <h5>Detik</h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-md-12 no-pd">
-                <a href="http://www.pinkemma.com/flashsale/detail/9" onclick="ga('send', 'event' ,'Flash_Sale', 'Semua serba 70 Ribu, Last Stock!','click',1);" class="btn btn-warning btn-lg btn-block">Saya Ingin Lihat &raquo;</a>
+                <a href="product.html" onclick="" class="btn btn-warning btn-lg btn-block">Saya Ingin Berbelanja &raquo;</a>
             </div>
         </div>
 

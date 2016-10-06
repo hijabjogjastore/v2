@@ -144,12 +144,12 @@ $(document).ready(function(){
 					?>
 				</ul>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="#">Modul Web</a>
 				<ul>
-					<?php include "menu2.php"; ?>
+					<?php //include "menu2.php"; ?>
 				</ul>
-			</li>
+			</li> -->
           </ul>
     </div>
 </div>

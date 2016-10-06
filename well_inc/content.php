@@ -16,10 +16,23 @@ if($_GET['mod']=='home'){
 }elseif ($_GET['mod']=='checkout-tanks') {
 	include("well_cont/checkout-tanks.php");
 }
-//page
+// statistik page start
 elseif ($_GET['mod']=='cara-pemesanan') {
-	include("well_cont/cara-pemesanan.php");
+	include("well_cont/page/cara-pemesanan.php");
 }
+elseif ($_GET['mod']=='persyaratan-dan-ketentuan') {
+	include("well_cont/page/persyaratan-dan-ketentuan.php");
+}
+elseif ($_GET['mod']=='kebijakan-privasi') {
+	include("well_cont/page/kebijakan-privasi.php");
+}
+elseif ($_GET['mod']=='tentang-kami') {
+	include("well_cont/page/tentang-kami.php");
+}
+elseif ($_GET['mod']=='contact-kami') {
+	include("well_cont/page/contact-kami.php");
+}
+//statistik end
 //aksi cart
 elseif ($_GET['mod']=='keranjangbelanja') {
 	include("well_cont/proses/keranjangbelanja.php");

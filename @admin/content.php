@@ -3,7 +3,7 @@
 if ($_GET['module']=='home'){
   if ($_SESSION['leveluser']=='admin'){
 	echo "<div class='box-header'>
-        <p>Hai <b>$_SESSION[namalengkap]</b>, selamat datang di halaman Administrator.
+        <p>Hai admin <b>$_SESSION[namalengkap]</b>, selamat datang di halaman Administrator.
         Gunakan menu di <b style='font-size: 13px;'> sidebar kiri </b> anda untuk mengelola konten website.</p></div>";
 	echo "<div class='box-body clear'>";
 	
@@ -11,7 +11,7 @@ if ($_GET['module']=='home'){
 $aksi="modul/mod_page/aksi_page.php";
 $sql=mysql_query("SELECT * FROM mod_page WHERE id_page='1'");
 $s=mysql_fetch_array($sql);
-	echo "<h2 class='hLine'>Welcome to Zonatifosi:</h2>
+	/*echo "<h2 class='hLine'>Welcome to Zonatifosi:</h2>
 	<p>Anda bisa mengubah <b> pesan selamat datang</b> yang ditampilkan di halaman depan <i>(home)</i> website, melalui teks area dibawah.</p>
 	<form method='POST' action='$aksi?module=page&act=update'>
 	<input type=hidden name='id' value='$s[id_page]' />
@@ -35,7 +35,7 @@ $s=mysql_fetch_array($sql);
 		<td class='left' colspan='2'><input type='submit' class='butt' value='Update' /></td>
 	</tr>
 	</table>
-	</form>";
+	</form>";*/
 	
 //informasi kontak sidebar
 /*$sql2=mysql_query("SELECT * FROM mod_page WHERE id_page='6'");

@@ -18,8 +18,10 @@ RewriteRule ^pesanan.html$ media.php?mod=show-lacakpesanan [L]
 
 #page
 RewriteRule ^cara-pemesanan.html$ media.php?mod=cara-pemesanan [L]
-
-
+RewriteRule ^persyaratan-dan-ketentuan.html$ media.php?mod=persyaratan-dan-ketentuan [L]
+RewriteRule ^kebijakan-privasi.html$ media.php?mod=kebijakan-privasi [L]
+RewriteRule ^tentang-kami.html$ media.php?mod=tentang-kami [L]
+RewriteRule ^contact-kami.html$ media.php?mod=contact-kami [L]
 #page
 RewriteRule ^profil-nanaku-hijab-store$ page-2-tentangkami.html [QSA,L]
 RewriteRule ^cara-belanja-nanaku-hijab-store$ page-10-carabelanja.html [QSA,L]
