@@ -407,6 +407,21 @@ switch($_GET['step'])
                 if ($('#checkout-address').length) {
                     $('#checkout-address').validate({
                         rules: {
+                            nama:{
+                                required: !0
+                            },
+                             telpon:{
+                                required: !0
+                            },
+                             email:{
+                                required: !0
+                            },
+                            alamat:{
+                                required: !0
+                            },
+
+
+
                             country: {
                                 required: !0
                             },
@@ -427,6 +442,20 @@ switch($_GET['step'])
                             }
                         },
                         messages: {
+                            nama: {
+                                required: "Mohon isi nama kamu"
+                            },
+                             telpon: {
+                                required: "Mohon isi nomor hp kamu"
+                            },
+                             email: {
+                                required: "Mohon isi email kamu"
+                            }, alamat: {
+                                required: "Mohon isi alamat kamu"
+                            },
+
+
+
                             country: {
                                 required: "Mohon pilih negara kamu"
                             },
